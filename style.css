@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500;600;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    margin: 30px 0;
+    padding: 10px 15px;
+    color: #fff;
+    background-color:  #FF6464;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Heebo', sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fc4242;
+}
+.nav
+{
+    width: 100%;
+}
+.navbar
+{
+    float: right;
+    display: flex;
+    padding: 30px;
+}
+.navbar h1 a
+{
+text-decoration: none;
+margin-right: 30px;
+font-family: 'Heebo', sans-serif;
+font-size: 25px;
+font-weight:600;
+color: #000;
+}
+.about-me{
+    width: 100%;
+    margin: 30px;
+}
+.about-me .left{
+    float: left;
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.about-me .left h1{
+    margin: 20px 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 45px;
+    color: #21243D;
+}
+.about-me .left p{
+    margin: 20px 0;
+    font-family: 'Heebo', sans-serif;
+    font-size:17px ;
+}
+.about-me .right{
+    float: right;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me .right img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-items
+{
+    width: 100%;
+    height: 70vh;
+    padding: 20px;
+    background-color: #EDF7FA;
+}
+.card-items h1{
+    float: left;
+    font-size: 23px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+.card-items h2{
+    float:right;
+    padding: 20px;
+}
+.card-items h2 a{
+    text-decoration: none;
+    color: #00A8CC;
+}
+
+.card-items .mgleft{
+    margin-left: 25px;
+}
+.card-items .card{
+    background-color: #fff;
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.card-items .card h3{
+    padding: 10px 0;
+    font-size: 26px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    line-height: 38px;
+}
+.card-items .card .date {
+    display:flex;
+}
+
+.card-items .card .date h4{
+    font-size:20px ;
+    line-height: 38px;
+    padding: 20px 0;
+    color: #21243D;
+}
+.card-items .card .date .cen{
+    font-size:30px ;
+    line-height: 38px;
+    padding: 20px 20px;
+    color: #21243D;
+}
+
+.card-items .card  p
+{
+    font-size:18px ;
+    line-height: 38px;
+    padding-top: 20px;
+    color: #21243D;
+}
+.feature h3
+{
+    margin: 20px 0;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+}
+
+ .feature .works{
+    margin: 40px 0;
+}
+.works .left-item  
+{
+float: left;
+width: 33%;
+}
+.works .left-item img 
+{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+.works .right-item 
+{
+    float: right;
+    width: 67%;
+    padding-left: 20px;
+}
+.works .right-item h1{
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: normal;
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+    margin-bottom: 30px;
+}
+.works .right-item .year 
+{
+display: inline;
+color: #fff;
+padding: 0 7px;
+border-radius: 20px;
+font-family: 'Heebo', sans-serif;
+background-color:  #21243D;
+}
+.works .right-item h3 
+{
+display: inline;
+margin: 20px;
+color: #21243D;
+padding: 5px;
+font-family: 'Heebo', sans-serif;
+}
+.works .right-item p{
+    font-size:22px ;
+    line-height: 38px;
+    padding-top: 20px;
+    color: #21243D;
+}
+.footer{
+    margin: 150px;
+   text-align: center;
+}
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #21243D;
+}
+.footer ul li a 
+{
+    font-size: 40px;
+}
+.footer p{
+    font-size:20px ;
+    line-height: 38px;
+    color: #21243D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
